@@ -1,0 +1,59 @@
+// html {
+//     font-size: 62.5%; // 1rem is 10px
+// }
+
+// *,
+// *::after,
+// *::before {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: inherit;
+//     font-family: 'montserrat';
+// }
+
+// body {
+//     overflow-x: hidden;
+//     font-weight: normal;
+
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     text-rendering: optimizeLegibility;
+//     -webkit-tap-highlight-color: transparent;
+// }
+
+// .app {
+//     margin-top: 2rem;
+//     display: grid;
+//     justify-items: center;
+// }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.actual_slider-container {
+    display: flex;
+    justify-content: center;
+    // background-color: red;
+
+    .actual_slider {
+        display: grid;
+        grid-template-columns: 1fr 5fr 10fr 5fr 1fr;
+        grid-gap: 2px;
+        width: 90vw;
+        height: 30vh;
+        
+        
+        .slider-item {
+            height: inherit;
+            background-color: gray;
+            min-height: 200px;
+        }
+    
+        .blank-slide {
+            visibility: hidden;
+        }
+        
+    }
+}
