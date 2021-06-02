@@ -1,14 +1,20 @@
 import React, { Component, useDebugValue } from 'react';
+// import photo1 from "../../static/assets/photos/asadodepuerco";
+// import photo2 from "../../static/assets/photos/barbacoatacos";
+// import photo3 from "../../static/assets/photos/beeffaitaquesadilla";
+// import photo4 from "../../static/assets/photos/buritos";
+// import photo5 from "../../static/assets/photos/burritounwrapped";
+// import photo6 from "../../static/assets/photos/cheesburger";
 
 export default function() {
 
     // images for slider
-const img1="img1";
-const img2="img2";
-const img3="img3";
-const img4="img4";
-const img5="img5";
-const img6="img6";
+const img1="{photo1}";
+const img2="{photo2}";
+const img3="{photo3}";
+const img4="{photo4}";
+const img5="{photo5}";
+const img6="{photo6}";
 
 // array of images for slider
 var photos = [];
